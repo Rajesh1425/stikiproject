@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:aqua; 
+
+}
+
+.cot{
+  height: 100vh;
+  width: 250px;
+   position:fixed;
+   background-color: black;
+
+}
+a.cv{
+   display: flex;
+   height: 33px;
+   width:200px;
+   background-color: aqua;
+   text-decoration: none;
+   justify-content: center;
+   margin: 30px;
+   align-items: center;
+   font-size: 1.2rem;
+   color: rgb(0, 255, 251);
+   color: black;
+  
+ 
+}
+.con2{
+padding-left: 250px;
+}
+#home{
+    height: 100vh;
+    width: 100wh;
+
+}
+#html{
+    height: 100vh;
+    width: 100wh;
+}
+#css{
+    height: 100vh;
+    width: 100wh;
+}
+#js{
+    height: 100vh;
+    width: 100wh;
+}
+#cp{
+    height: 100vh;
+    width: 100wh;
+}
+#java{
+    height: 100vh;
+    width: 100wh;
+}
+#c{
+    height: 100vh;
+    width: 100wh;
+}
+#hy{
+    color: aqua;
+    text-align: center;
+    padding-top: 10px;
+    background-color:  black;
+
+}
+h1{
+    padding-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+#di{
+overflow: scroll;
+height: 400px;
+width: 500px;
+}
+p{
+    padding-top: 20px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    color:aqua;
+    margin-left: 20px;
+   margin-top: 80px;
+   margin-left:40% ;
+   animation: raj  3s linear;
+   animation-iteration-count: infinite;
+  
+}
+@keyframes raj {
+ 
+ from{transform:rotate(0deg);}
+ to{transform:rotate(360deg);}
+}
